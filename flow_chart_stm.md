@@ -2,10 +2,10 @@
 
 ```mermaid
 flowchart TD
-    A[Debris Event Data (2024) + Historical Events] --> B[Python Script for Propagation]
+    A[Debris Event Data, 2024 + Historical Events] --> B[Python Script for Propagation]
     B --> C[Identify Payloads at Risk]
     C --> D[Find Closest Approaches]
-    D --> E[Visualize in Laboratory (TLEs, Conjunctions, Maneuvers)]
+    D --> E[Visualize in Laboratory, TLEs, Conjunctions, Maneuvers]
     E --> F[Assess Risks with Seradata Database]
     F --> G[Impact Assessment]
     
