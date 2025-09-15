@@ -2,7 +2,7 @@
 ```mermaid
 
 %% Swimlane Timeline for CDM Event Handling with Feedback Loop
-flowchart LR
+flowchart TD
     %% Data Sources
     subgraph DS[Data Sources]
         A1[CDM Alert Generated, TCA -72h]
@@ -16,7 +16,7 @@ flowchart LR
         B2[Propagate States & Estimate Pc]
         B3{Decision Rule}
         B4[Compute Risk Score + Maneuver Options]
-        B5[Evaluate Cost vs Benefit ,ΔV vs Collision Cost)]
+        B5[Evaluate Cost vs Benefit ,ΔV vs Collision Cost]
         B6[Final Risk Re-assessment ,TCA -12h]
     end
 
